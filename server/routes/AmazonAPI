@@ -1,0 +1,10 @@
+const amazon = require('amazon-product-api');
+
+
+const client = amazon.createClient({
+  awsId :'AKIAJRUV6MHFJPD3OLYA',
+  awsSecret : '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',
+  awsTag : 'dlipnraj-20'
+});
+
+module.exports = client;
